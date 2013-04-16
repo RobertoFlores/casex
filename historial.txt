@@ -1,0 +1,217 @@
+		<<<<<<<<<<proyecto15>>>>>>>>>>>>>>>
+Hecho:
+17/06/2004
+
+1) Se adicionan a menu funcionalidades para meter datos a las ramas       interactivamente, asi como para meter la rama al proyecto
+2) Se adicionan metodos a menu para calculos que se realizan con la clase       proyecto, para realizar los calculos de cortocircuito
+
+Por Hacer:
+16/06/2004
+
+1) Funcion para checar conectividad, ¿como? quien sabe
+2) Clase para leer archivos xml
+3) Clase para escribir archivos xml
+4) Metodo para convertir valores de entrada actuales, en valores en por unidad.
+5) Interfaz Grafica de usuario en C++ Builder.
+6) Elaborar una clase con los metodos creados para manipulacion de matrices,    agregar pivoteo parcial
+   para evitar el error de division por cero en el metodo     de inversion de matrices de GaussJordan.
+7) Elaborar un metodo para la OTF (Ordered Triangular Factorization) en la futura    clase matriz
+8) Clase para manejo de archivos tipo binario, debe abrir, guardar, adicionar,      cerrar, crear, etc archivos directamente a disco.
+
+		<<<<<<<<<<proyecto14>>>>>>>>>>>>>>>
+Hecho:
+16/06/2004
+1) Calculo de corrientes de cc en Por unidad
+2) Inicia manejo dinamico de nodos
+3) Se logra corregir problemas con manejo de matrices 
+   que inician desde cero
+4) Se inician actividades en la interfaz de modo texto
+5) Se crea el archivo menu.h y principal.cpp que ahora son responsables de la parte central
+   del programa, en menu se declaran las opciones de la interfaz de usuario en modo texto
+   y en principal se maneja solo la funcion main y la ejecucion de menu
+6) Ya es posible meter nodos interactivamente dato a dato, tambien proyecto ya se pueden
+   meter datos, proyecto y nodo se manejan dinamicamente con las llamadas new y delete
+ 
+
+Por Hacer:
+13/06/2004
+
+1) Metodo en la clase proyecto, para añadir nodos y ramas al proyecto
+   incluyendo un menu para el manejo de las funciones de calculo
+2) Funcion para checar conectividad, ¿como? quien sabe
+3) Clase para leer archivos xml
+4) Clase para escribir archivos xml
+5) Metodo para convertir valores de entrada actuales, en valores en por unidad.
+6) Metodo para calcular las corrientes de cortocircuito en cada nodo, a partir de 
+   los datos arrojados por la matriz resultante. Zbus
+7) Interfaz Grafica de usuario en C++ Builder.
+8) Elaborar una clase con los metodos creados para manipulacion de matrices, agregar pivoteo parcial
+   para evitar el error de division por cero en el metodo     de inversion de matrices de GaussJordan.
+9)Elaborar un metodo para la OTF (Ordered Triangular Factorization) en la futura    clase matriz
+
+		<<<<<<<<<<proyecto13>>>>>>>>>>>>>>>
+Hecho:
+13/06/2004
+1) Se adiciona la clase matriz al proyecto
+2) Se calcula la inversa con ayuda de la clase matriz.
+3) Se convirtio a dinamico el manejo de las matrices
+   dentro de la clase proyecto.
+4) El metodo llena matriz2 de la clase proyecto ahora maneja matrices dinamicas
+
+
+Por Hacer:
+10/06/2004
+
+1) Metodo en la clase proyecto, para añadir nodos y ramas al proyecto
+   incluyendo un menu para el manejo de las funciones de calculo
+2) Optimizar el metodo llena_matriz y volverlo dinamico
+3) Funcion para checar conectividad, ¿como? quien sabe
+4) Clase para leer archivos xml
+5) Clase para escribir archivos xml
+6) Metodo para convertir valores de entrada actuales, en valores en por unidad.
+7) Metodo para calcular las corrientes de cortocircuito en cada nodo, a partir de 
+   los datos arrojados por la matriz resultante. Zbus
+8) Interfaz Grafica de usuario en C++ Builder.
+9) Elaborar una clase con los metodos creados para manipulacion de matrices, agregar pivoteo parcial para evitar el error de division por cero en el metodo     de inversion de matrices de GaussJordan.
+10)Elaborar un metodo para la OTF (Ordered Triangular Factorization) en la futura    clase matriz
+
+				
+		<<<<<<<<<<proyecto12>>>>>>>>>>>>>>>
+Hecho:
+1) Se terminaron los metodos (sin objetos) para el manejo de matrices, la funciones incorporadas son: creaMatriz, transpuesta, CreaMatrizAumentada, y al fin la inversa a traves del metodo de GaussJordan
+
+19/05/2004
+Por Hacer:
+
+1) Metodo en la clase proyecto, para añadir nodos y ramas al proyecto
+   incluyendo un menu para el manejo de las funciones de calculo
+2) Optimizar el metodo llena_matriz
+3) Interconexion con algun programa de manipulacion de matrices
+4) Clase para leer archivos xml
+5) Clase para escribir archivos xml
+6) Metodo para convertir valores de entrada actuales, en valores en por unidad.
+7) Metodo para calcular las corrientes de cortocircuito en cada nodo, a aprtir de 
+   los datos arrojados por la matriz resultante. Zbus
+8) Interfaz Grafica de usuario en C++ Builder.
+9)Funcion para checar conectividad, ¿como? quien sabe
+		
+		<<<<<<<<<<proyecto11>>>>>>>>>>>>>>>
+Hecho:
+18/05/2004
+1) Se termino un Metodo en la clase proyecto para verificar la adyacencia de dos nodos de referencia, asi como la    inclusion de esta funcion para mejorar el algoritmo del metodo llena matriz.
+2) Se termino el metodo llena matriz, ahora ya es totalmente funcional, solo queda optimizarlo.
+
+
+13/05/2004
+Por Hacer:
+1) Metodo para verificar la adyacencia de dos nodos de referencia, asi como la    inclusion de esta funcion para mejorar el algoritmo del metodo llena matriz.
+2) Metodo en la clase proyecto, para añadir nodos y ramas al proyecto
+   incluyendo un menu para el manejo de las funciones de calculo
+3) Mejorar el metodo para convertir el grafo de admitancias a una matriz
+4) Interconexion con algun programa de manipulacion de matrices
+5) Clase para leer archivos xml
+6) Clase para escribir archivos xml
+7) Metodo para convertir valores de entrada actuales, en valores en por unidad.
+8) Metodo para calcular las corrientes de cortocircuito en cada nodo, a aprtir de 
+   los datos arrojados por la matriz resultante. Zbus
+9) Interfaz Grafica de usuario en C++ Builder.
+10)Funcion para checar conectividad, ¿como? quien sabe
+	
+		<<<<<<<<<<proyecto10>>>>>>>>>>>>>>>
+
+Hecho:
+1) Se separaron las clases en archivos para facilitar la legibilidad del codigo
+2) Se terminó el metodo de la clase proyecto para convertir el grafo de admitancias en la matriz de admitancia de nodos "Ybus", cabe señalar que este metodo, no esta terminado, ya que tiene varios bugs, por ejemplo: La adyacencia de los nodos de referencia no esta garantizada con el metodo implementado en la funcion llena matriz, debido a que, si el orden de los nodos de referencia no es secuencial, es seguro que habra errores ya que la adyacencia de los nodos, no debe basarse en operaciones directas con su numero de id, sino con su posicion dentro del grafo del diagrama unifilar.
+3) Se cambio el compilador a uno de plataforma cruzada, el C++ BuilderX
+
+8/05/2004
+
+Por hacer:
+
+1) Metodo en la clase proyecto, para añadir nodos y ramas al proyecto
+   incluyendo un menu para el manejo de las funciones de calculo
+2) Metodo para convertir el grafo de admitancias a una matriz
+3) Interconexion con algun programa de manipulacion de matrices
+4) Clase para leer archivos xml
+5) Clase para escribir archivos xml
+	
+	<<<<<<<<<<proyecto9>>>>>>>>>>>>>>>
+4/05/2004
+
+Por hacer:
+
+1) Metodo en la clase proyecto, para añadir nodos y ramas al proyecto
+   incluyendo un menu para el manejo de las funciones de calculo
+3) Metodo para convertir el grafo de admitancias a una matriz
+4) Interconexion con algun programa de manipulacion de matrices
+5) Separacion de clases en archivos con el fin de facilitar el desarrollo y
+   el mantenimiento futuro
+6) Clase para leer archivos xml
+7) Clase para escribir archivos xml
+	<<<<<<<<<<proyecto8>>>>>>>>>>>>>>>	
+29/04/2004
+1) Se termino un Metodo para marcar nodos como de referencia
+
+
+Por hacer:
+
+1) Metodo en la clase proyecto, para añadir nodos y ramas al proyecto
+   incluyendo un menu para el manejo de las funciones de calculo
+3) Metodo para convertir el grafo de admitancias a una matriz
+4) Interconexion con algun programa de manipulacion de matrices
+5) Separacion de clases en archivos con el fin de facilitar el desarrollo y
+   el mantenimiento futuro
+6) Clase para leer archivos xml
+7) Clase para escribir archivos xml
+8) Metodo para marcar nodos de referencia
+
+	<<<<<<<<<<<proyecto7>>>>>>>>>>>>>>>
+28/04/2004
+Hecho:
+Se elimina la variable vrama, vnodo
+Se añade la variable vnodo_DU, con el fin de mantener uniformidad con los vectores de ramas
+Se añaden las variables vrama_DU, vrama_DI, vrama_DA
+con el fin de preservar los valores de impedancia originales de las ramas
+y meterlos en el vector vramas_DI que significa: vector de ramas del diagrama de 
+impedancias, se realiza una operacion similar con el vector vrama_DA, que significa: vector de ramas de admitancias.
+Se elabora la función, calcula_admitancias, en la cual se incluyo la funcionalidad de crear 
+el diagrama de impedancias, calcular las admitancias de cada rama, y crear el diagrama de admitancias
+
+
+Por hacer:
+
+1) Metodo en la clase proyecto, para añadir nodos y ramas al proyecto
+   incluyendo un menu para el manejo de las funciones
+2) Metodo para marcar nodos como de referencia.
+3) Metodo para convertir el grafo de admitancias a una matriz
+4) Interconexion con algun programa de manipulacion de matrices
+5) Separacion de clases en archivos con el fin de facilitar el desarrollo y
+   el mantenimiento futuro
+
+	<<<<<<<<<<<proyecto6>>>>>>>>>>>>>>>
+23/04/2004 By robertrevolver@hotmail.com
+
+Hecho:
+Se sustituye la letra R por la X en los atributos 
+de la clase dispositivo
+Se termina el algoritmo para convertir los datos entrados
+de nodos y ramas, a un grafo de impedancias, listo para convertir a admitancias.
+
+Por Hacer:
+Metodo para marcar nodos como de referencia.
+Metodo para convertir de impedancias a admitancias en la clase proyecto
+Metodo para convertir el grafo de admitancias a una matriz
+Interconexion con algun programa de manipulacion de matrices
+
+
+	<<<<<<<<<<<proyecto5>>>>>>>>>>>>>>>
+
+22/04/2004 By robertrevolver@hotmail.com
+Notas del proyecto electrico
+
+La clase dispositivo, esta completa
+la clase nodo esta casi terminada, hasta aqui parece funcional
+la clase rama esta casi terminada, hasta aqui parece funcional
+la clase proyecto esta al 50%
+esta carpeta queda congelada en este estatus funcional.
+ 
