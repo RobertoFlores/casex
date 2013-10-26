@@ -1,3 +1,5 @@
+Tomar en cuenta que esto fue mucho antes de saber lo que era un sistema de control de versiones. ;)
+
 		<<<<<<<<<<proyecto15>>>>>>>>>>>>>>>
 Hecho:
 17/06/2004
